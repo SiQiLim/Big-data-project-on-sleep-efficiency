@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "My Portfolio"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - Big data project on Sleep efficiency.qmd
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
